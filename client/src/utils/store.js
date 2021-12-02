@@ -2,6 +2,6 @@
 import { createStore } from 'redux';
 
 // Importing the reducer file that is mostly unchanged
-import { reducer } from './reducers';
+import  reducer  from './reducers';
 
 export default createStore(reducer);
